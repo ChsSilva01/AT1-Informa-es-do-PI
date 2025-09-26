@@ -1,2 +1,6 @@
 # AT1-Informa-es-do-PI
-Repositório dedicado para à atividade do Professor Yuri da Fatec.
+Carlos Henrique Dos Santos Silva
+Heloisa Vale Dos Santos
+Raissa Oliversa Souza
+Renan Zanetti Oliveira
+
