@@ -1,5 +1,5 @@
 # Carlos Henrique Dos Santos Silva
-# Heloisa Vale Dos Santos
-# Raissa Oliversa Souza
+# Heloísa Vale Dos Santos
+# Raissa De Oliveira Souza
 # Renan Zanetti Oliveira
 
