@@ -11,25 +11,33 @@ import java.util.Scanner;
  * @author fatec-dsm2
  */
 public class menu {
-    public menu(){
+    Scanner read = new Scanner(System.in);
+    apresentacao ap = new apresentacao();
+    ods o = new ods();
+    integrantes inte = new integrantes();
+    private int verificacao;
+    
+    public void principal(){
         int navegar, i = 0;
         
-        Scanner read = new Scanner(System.in);
-        apresentacao ap = new Apresentacao();
-        
         while(i < 1){
-            System.out.println("Seja bem-vindo!!");
-            System.out.println("O que gostaria de fazer? \n 1 - Cadastrar informacoes PI \n 2 - Ver informacoes do grupo\n 3 - Finalizar o programa");
+            System.out.println("O que gostaria de fazer? \n 1 - Preencher o texto \n 2 - Escolher a ODS\n 3 - Informar os integrantes\n 4 - Sair");
             navegar = read.nextInt();
-
+            
             switch(navegar){
                 case 1:
-                                        
+                    ap.cadastrarApresentacao();
+                    ap.exibirApresentar();
                     break;
                 case 2:
-                    info.exibirInformacoesPI();
+                    o.cadastrarODS();
+                    o.exibirODS();
                     break;
                 case 3:                    
+                    inte.cadastrarIntegrantes();
+                    inte.exibirIntegrantes();
+                    break;
+                case 4:
                     i++;
                     break;
                 default:

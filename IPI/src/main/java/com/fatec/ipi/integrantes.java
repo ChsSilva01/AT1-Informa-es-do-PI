@@ -13,6 +13,7 @@ import java.util.Scanner;
 public class integrantes {
     private String[] integrantes = new String[5];  
     Scanner read = new Scanner(System.in);
+    private int verificacao;
     
     public void cadastrarIntegrantes(){
         for(int i = 0; i < 5; i++){
@@ -21,8 +22,12 @@ public class integrantes {
         }
         
         System.out.println("Salvo com sucesso!!");
+        verificacao++;
     }
     
+    public int getVerificacao(){
+        return verificacao;
+    }
     public void exibirIntegrantes(){
          for(int i = 0; i < 5; i++){
             System.out.println(integrantes[i]);

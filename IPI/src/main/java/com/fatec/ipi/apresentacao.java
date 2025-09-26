@@ -17,6 +17,8 @@ public class apresentacao {
     private String metodologia;
     private String resumo;
     
+    private int verificacao;
+    
     Scanner read = new Scanner(System.in);
     
     public void cadastrarApresentacao(){
@@ -34,6 +36,14 @@ public class apresentacao {
         
         System.out.println("Digite o resumo: ");
         resumo = read.nextLine();
+        
+        System.out.println("Preenchido com sucesso");
+        
+        verificacao++;
+    }
+    
+    public int getVerificacao(){
+        return verificacao;
     }
     
     public void exibirApresentar(){
